@@ -1,0 +1,42 @@
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  .text-red{
+    color: red;
+  }
+  .dev-bg{
+    background-image: url('../styles/images/website\ bg.png');
+  background-repeat: no-repeat;
+  margin-top: auto !important;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+  }
+  .downsection{
+      
+    margin-top: 30px;
+
+  }
+
+  @media only screen and (max-width: 768px ) {
+    .dev-card{
+      width: 288px;
+    }
+  }

@@ -1,0 +1,75 @@
+.search-wrp{
+    position: relative;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    margin-left: auto
+}
+.categories-page{
+    padding-top: 10vh;
+    
+}
+.rounded{
+    border:1px solid;
+}
+.search-result-wrp{
+    background-image: url('../styles/images/website\ bg.png');
+    background-repeat: no-repeat;
+    margin-top: auto !important;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.card-name{
+    margin-top: 2vh;
+    box-sizing: content-box;
+}
+.common-head h2 span {
+    color: #0056D6;
+}
+.cursor{
+    cursor: pointer;
+}
+.bottom-margin{
+    margin-bottom: 5px !important;
+}
+.search-wrp input {
+    height: 45px;
+    padding-left: 35px;
+    font-size: 12px;
+    color: #858585;
+}
+section {
+    width: 100%;
+    float: left;
+}
+.search-wrp input {
+    height: 45px;
+    padding-left: 35px;
+    font-size: 12px;
+    color: #858585;
+}
+.search-result-wrp {
+    /* background: url( fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+.heloo{
+    height: 200px;
+    width: 259px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 768px ) {
+    .categories-page{
+        padding-top: 5vh;
+    }
+
+    .card-name{
+        font-size: 1rem;
+    }
+}
